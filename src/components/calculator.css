@@ -1,0 +1,47 @@
+*{
+    font-family: 'Orbitron', sans-serif;;
+}
+
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.container{
+    background-color: #999999;
+    border-radius: 1em;
+    padding:1em;
+    margin-left: 1em;
+}
+
+.line{
+    border-bottom: 1px solid black !important;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+.color-one{
+    background-color: #C8AD7D;
+    color: black;
+}
+
+.color-two{
+    background-color: #A6795B;
+    color: white;
+}
+.result-num{
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:0.5em;
+    font-size:3.5em;
+    font-family: 'Orbitron', sans-serif;;
+}
